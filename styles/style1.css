@@ -1,0 +1,335 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.hero
+{
+height:100vh;
+width:100%;
+background-image: url(../styles/img.jpg);
+background-size: cover;
+background-position: center;
+}
+
+nav
+{
+display:flex;
+align-items: center;
+padding-left: 10%;
+padding-right: 10%;
+float:right;
+}
+
+nav ul{
+    display: flex;
+    float:right;
+
+}
+
+nav ul li{
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+.name{
+    font-size:30px;
+}
+
+span{
+    color:white;
+}
+
+nav ul li a{
+    color:whitesmoke;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: blue;
+    transition: 1s;
+}
+
+.btn{
+    background-color: blue;
+    color: pink;
+    font-weight: bold;
+    border-radius: 40px;
+    text-decoration: none;
+}
+
+.btn_talk{
+    /* background-color: blue;
+    color: pink;
+    font-weight: bold;
+    border-radius: 30px;
+    text-decoration: none; */
+    background-color: white;
+    color:black;
+    display:inline-flex;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: .5s;
+    padding:10px 20px;
+    margin-left: 30%;
+    
+}
+.btn_talk:hover{
+background-color: transparent;
+border: 2px solid blue;
+cursor:pointer;
+padding:10px 10px 0 0;
+}
+
+.content{
+    top:75px;
+    left:25px;
+    position:absolute;
+    transform: translate(50%,50%);
+}
+h3{
+    color:white;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+h2{
+    color: white;
+    font-size: 50px;
+    
+}
+h4{
+    color: white;
+    font-size: 30px;
+   }
+
+   .Hir .button{
+    background-color: white;
+    color:black;
+    display:inline-flex;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: .5s;
+    padding:10px 20px;
+    margin-left: 30%;
+   }
+
+   .subscribe form{
+    width: 400px;
+    position:relative;
+   }
+    .subscribe form input:first-child{
+     display: inline-block;
+     width: 100%;
+     border-radius: 40px;
+     border: 3px solid yellow;
+     padding:15px 120px 13px 14px;
+    }
+    .subscribe form input:last-child{
+      display: inline-block;
+     border: none;
+     padding:10px 20px;
+        border-radius: 40px;
+        background-color: red;
+        color:white;
+        top:7px;
+        right:7px;
+        position: absolute;
+        box-shadow: 0px 0px 10px black;
+
+    }
+    .about_me{
+        width: 100%;
+        padding: 100px 0px;
+        background-color:rgb(2, 17, 46);
+       
+    }
+.about_me img{
+    height: 500px;
+    width:700px;
+}
+
+.about_content{
+    color:white;
+    margin-left:40px;
+}
+.main{
+    display: flex;
+}
+
+.about_content h3{
+    color:white;
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+.about_content h5{
+    color:white;
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+
+.about_content p{
+    color:white;
+   font-size: 15px;
+letter-spacing: 3px;
+}
+
+.skills{
+    background:rgb(2, 17, 46);
+    width:100%;
+}
+
+.title h2{
+    color:white;
+    font-size:60px;
+    text-align:center;
+}
+
+.box{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.card{
+    height:300px;
+    width:270px;
+    background-color:white;
+    border-radius: 25px;
+    margin:12px;
+}
+
+.card h4{
+    text-align: center;
+    font-size: 20;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    color:black;
+}
+
+.card li{
+    margin-left: 20px;
+}
+
+.card ol{
+    margin-left: 20px;
+}
+
+.para p{
+    color:pink;
+    font-size: 15px;
+    margin-bottom: 40px;
+    line-height: 30px;
+    margin-top:40px;
+}
+
+.para .button{
+    background-color: red;
+    color:white;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: .5s;
+    padding:10px 20px;
+}
+
+.para .button:hover{
+    background-color: transparent;
+    border: 2px solid red;
+    cursor:pointer;
+    padding:10px 20px;
+}
+
+.card i{
+    color: black;
+    font-size: 40px;
+    text-align: center;
+    margin: 15px 0px;
+    display: block;
+}
+
+.Hire{
+    width:100%;
+    height:200px;
+    align-items: center;
+    background-color: rgb(2, 17, 46);
+    justify-content: center;
+    display: flex;
+}
+.Hire p{
+    font-size:30px;
+    color:white;
+}
+
+.Hire .button{
+    background-color: black;
+    color:white;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: .5s;
+    padding:10px 20px;
+    margin-left: 40%;
+    justify-content: center;
+}
+
+.Hire .button:hover{
+    background-color: transparent;
+    border: 2px solid red;
+    cursor:pointer;
+    padding:10px 20px;
+}
+
+.footer{
+    width:100%;
+    background:rgb(2, 17, 46);
+    justify-content: center;
+    
+}
+
+.footer .author{
+    
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+margin-left: 42%;
+}
+
+.footer .copy{
+    font-size: 15px;
+    color:black;
+    font-weight: bold;
+    margin-left: 50%;
+}
+.footer .reach{
+    
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+    margin-left: 45%;
+
+}
+
+.footer .social-media a{
+    width:40px;
+    height:40px;
+    display:inline-flex;
+    background:black;
+    border-radius: 50%;
+    color:white;
+    align-items: center;
+justify-content: center;
+text-decoration: none;
+margin:20px 10px;
+font-size: 22px;
+margin-left: 47%;
+}
+
+.footer .social-media a:hover{
+    background-color: transparent;
+    border: 2px solid red;
+    cursor:pointer;
+    transform: scale(1.3);
+    transition: .5s;
+}
+
