@@ -147,8 +147,9 @@ h4{
        
     }
 .about_me img{
-    height: 500px;
-    width:700px;
+    height: 300px;
+    width:300px;
+    margin:5%;
 }
 
 .about_content{
@@ -288,11 +289,13 @@ letter-spacing: 3px;
 }
 
 .footer .author{
-    
-    font-size: 50px;
+        color:white;
+    font-size:60px;
+    text-align:center;
+    /* font-size: 50px;
     color: white;
     font-weight: bold;
-margin-left: 42%;
+margin-left: 42%; */
 }
 
 .footer .copy{
